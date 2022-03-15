@@ -1,10 +1,12 @@
-public class Exercicio01 {
-    public static void main(String[] args) {
-        String cidades[] = {"Londres", "Madrid", "Nueva York", "Buenos Aires", "Asunción", "São Paulo", "Lima", "Santiago de Chile", "Lisboa", "Tokio"};
-        int[][] temperaturas = {{-2, 33}, {-3, 33}, {-8, 27}, {4, 37}, {6, 42}, {5, 43}, {0, 39}, {-7, 26}, {-1, 31}, {-10, 35}};
-        int cidadeA= 0;
-        int cidadeB= 0;
+package javaI;
 
+public class Temperatura {
+    public static void main(String[] args) {
+        String[] cidades = {"Londres", "Madrid", "Nueva York", "Buenos Aires", "Asunción", "São Paulo", "Lima", "Santiago de Chile", "Lisboa", "Tokio"};
+        int[][] temperaturas = {{-2, 33}, {-3, 33}, {-8, 27}, {4, 37}, {6, 42}, {5, 43}, {0, 39}, {-7, 26}, {-1, 31}, {-10, 35}};
+
+        int cidadeA = 0;
+        int cidadeB = 0;
 
         int temperaturaMinima = 0;
         int temperaturaMaxima = 0;
