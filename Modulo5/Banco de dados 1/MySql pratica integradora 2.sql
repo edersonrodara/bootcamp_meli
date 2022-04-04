@@ -1,0 +1,13 @@
+SELECT * FROM movies_db.movies;
+SELECT first_name, last_name, rating FROM movies_db.actors;
+SELECT title as titulo FROM movies_db.series as series;
+SELECT first_name, last_name FROM actors WHERE rating >= 7.5;
+SELECT title, rating, awards FROM movies WHERE rating >= 7.5;
+SELECT title, rating FROM movies ORDER BY rating;
+SELECT title FROM movies LIMIT 3;
+SELECT * FROM movies ORDER BY rating DESC LIMIT 5;
+SELECT * FROM actors LIMIT 10;
+SELECT title, rating FROM movies WHERE title LIKE "Toy Story%";
+SELECT * FROM actors WHERE first_name LIKE "Sam%";
+SELECT title FROM movies WHERE year(release_date) BETWEEN 2004 AND 2008;
+SELECT title FROM movies WHERE year(release_date) BETWEEN 2004 AND 2008 AND rating > 3 AND awards > 1 ORDER BY rating;
